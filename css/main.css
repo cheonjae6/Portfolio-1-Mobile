@@ -1,0 +1,156 @@
+button {
+  padding: 5px 20px;
+  background-color: rgb(68, 68, 68);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+body {
+  margin: 0;
+}
+body #wrap {
+  width: 100%;
+}
+body #wrap .container {
+  width: 100%;
+  max-width: 1000px;
+}
+body #wrap .container #section1 {
+  width: 100%;
+  background-image: linear-gradient(to top right, rgb(93, 150, 215), rgb(82, 97, 187));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+body #wrap .container #section1 .top {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body #wrap .container #section1 img {
+  display: block;
+  width: 200px;
+}
+body #wrap .container #section2 {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #wrap .container #section3 {
+  width: 100%;
+  padding: 40px 0;
+  background-image: linear-gradient(to top right, rgb(70, 84, 182), rgb(71, 85, 182));
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #wrap .container #section3 p {
+  margin: 0 0 10px 0;
+}
+body #wrap .container #section3 h4 {
+  font-size: 24px;
+  margin: 0 0 40px 0;
+}
+body #wrap .container #section3 .icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #wrap .container #section3 .icon-box .icon-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+body #wrap .container #section3 .icon-box .icon-item .icon {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #wrap .container #section3 .icon-box .icon-item .icon i {
+  color: rgb(70, 84, 182);
+  z-index: 1;
+}
+body #wrap .container #section3 .icon-box .icon-item h3 {
+  margin: 20px 0;
+}
+body #wrap .container #section3 .icon-box .icon-item p {
+  margin: 0;
+}
+body #wrap .container #section4 {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #wrap .container #section4 p {
+  margin: 10px 0;
+}
+body #wrap .container #section4 h2 {
+  margin: 0 0 40px 0;
+}
+body #wrap .container #section4 .image-box {
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: repeat(4, 30vh);
+}
+body #wrap .container #section4 .image-box .image-item {
+  position: relative;
+  background-size: contain;
+}
+body #wrap .container #section4 .image-box .image-item img {
+  display: block;
+  width: 100vw;
+  height: 30vh;
+}
+body #wrap .container #section4 .image-box .image-item .text {
+  position: absolute;
+  color: #fff;
+  left: 20px;
+  top: 20px;
+}
+body #wrap .container #section4 .image-box .image-item .text h2 {
+  margin: 0;
+}
+body #wrap .container #footer {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body #wrap .container #footer .icon-item {
+  margin: 0 20px 30px 20px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(70, 84, 182);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
